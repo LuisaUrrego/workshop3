@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Workshop 3</h1>
+    <form id="formularioId">
+        <section class="formulario">
+            <label for="nombre_producto" class="form_label"> Nombre del producto: </label>
+                <input  name= "nombre_producto" type="text" class="form_input"  placeholder="Nombre del producto" id="nombre_producto">
+
+            <label for="precio_producto" class="form_label"> Precio: </label>
+                <input name= "precio_producto" type="text" class="form_input" placeholder="Precio del producto" id="precio_producto">
+            <label for="cantidad_producto" class="form_label"> Cantidad del producto: </label>
+                <input  name= "cantidad_producto" type="text" class="form_input"  placeholder="Cantidad del producto" id="cantidad_producto">
+            <label for="categoria_producto" class="form_label"> Categoria del producto: </label>
+                <input name = "categoria_producto" type="text" class="form_input"  placeholder="Categoria del producto" id="categoria_producto">
+                <input type="submit" class="agregar" value="Agregar">
+        </section>
+        
+         
+
+    </form>
+    <section class="tabla">
+        <table id="transactionTable">
+            <tr>
+                <td>Nombre del producto</td>
+                <td>Precio del producto</td>
+                <td>Cantidad del producto</td>
+                <td>Categoria del producto</td>
+                <td> Eliminar</td>
+                <td>Actualizar</td>
+            </tr>
+        </table>
+
+    </section>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
